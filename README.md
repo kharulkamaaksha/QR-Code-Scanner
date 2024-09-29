@@ -84,7 +84,7 @@ This project implements a Real-Time QR Code Scanner using OpenCV and QRCode libr
    git branch -M main
    git push -u origin main
    Warning: If you get an error message like the one below, you probably forgot to fork the repository before cloning it. It is best to start over and fork the project repository first.
-   ERROR: Permission to https://github.com/Hacktoberfest-Event-Timer/eventTimer.git denied to <your-github-username>.
+   ERROR: Permission to https://github.com/QR-code-scanner/qr_scanner.git denied to <your-github-username>.
    fatal: Could not read from remote repository.
    Please make sure you have the correct access rights and that the repository exists.
 
