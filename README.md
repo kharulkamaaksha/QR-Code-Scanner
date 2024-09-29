@@ -1,14 +1,14 @@
-Introduction:
+**Introduction:**
 This project implements a Real-Time QR Code Scanner using OpenCV and QRCode libraries in Python. The system reads QR codes from a live webcam feed, checks the QR code content against predefined values, and provides access accordingly. The program also displays messages for "Access Granted" or "Access Denied" based on the code content and generates an alarm for unrecognized QR codes.
 
-Features:
+**Features:**
   1. Real-time QR Code Detection: Continuously scans the live webcam feed for QR codes.
   2. Access Control: Grants or denies access based on predefined QR code content.
   3. Visual Notifications: Displays "ACCESS GRANTED" or "ACCESS DENIED" on the screen.
   4. Alarm System: Plays a buzzer sound for denied access.
   5. Cross-Platform Support: Works on Windows and Linux
 
-Installation:
+**Installation:**
   Prerequisites:
     1.Python 3.x installed on your system
     2. Webcam connected to your system
@@ -19,13 +19,13 @@ Installation:
                                           or manually do pip install numpy/qrcode/time and other required libraries
     3. Run the script: python qr_code_scanner.py
 
-Usage:
+**Usage:**
   Once the script is running, the webcam feed will open, and the system will continuously scan for QR codes.
   1. Access Granted: If a QR code contains one of the predefined access values (ROYALS, CITIZEN, SOLDIERS), the system will display "ACCESS GRANTED".
   2. Access Denied: For unrecognized QR codes, the system will display "ACCESS DENIED" and play an alarm sound.
   3. Exit: To stop the script, press q or Esc.
 
-Working Flow:
+**Working Flow:**
   1. First we import the libraries:
      cv2: Used for video capture, QR code detection, and image processing.
      numpy: For creating and manipulating images (arrays).
@@ -46,12 +46,12 @@ Working Flow:
   6. Exit Condition: The loop continues until the user presses the Esc key (key == 27) or the q key (key == ord('q')). When the key is pressed, the program breaks the loop and releases the webcam using           
      cap.release(). The program also closes all OpenCV windows using cv2.destroyAllWindows().
 
-Future Plans:
+**Future Plans:**
   1. Database Integration: Add a database to store authorized QR codes, access logs, and user information, allowing for more dynamic access control management.
   2. Multi-Level Access Control: Implement different access levels (e.g., Admin, User, Guest) based on the QR code content, offering more granular control over permissions.
   3. Email/SMS Notifications: Send alerts when access is denied or granted to a predefined email or phone number.
 
-Contribution:
+**Contribution:**
   1. Fork the project: Click the gray Fork button at the top right of the previous page. This creates your copy of the project and saves it as a new repository in your GitHub account.
   
   2. Clone this project on your computer: Go to your profile. You will find forked repo named eventTimer. go to the repo by clicking on it.
@@ -95,5 +95,5 @@ Contribution:
    Your pull request will be reviewed and then eventually merged.
    Hurray! You successfully made your first contribution! 
 
-Author:
+**Author:**
 Kamaaksha Rajendra Kharul
