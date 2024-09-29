@@ -51,5 +51,49 @@ Future Plans:
   2. Multi-Level Access Control: Implement different access levels (e.g., Admin, User, Guest) based on the QR code content, offering more granular control over permissions.
   3. Email/SMS Notifications: Send alerts when access is denied or granted to a predefined email or phone number.
 
+Contribution:
+  1. Fork the project: Click the gray Fork button at the top right of the previous page. This creates your copy of the project and saves it as a new repository in your GitHub account.
+  
+  2. Clone this project on your computer: Go to your profile. You will find forked repo named eventTimer. go to the repo by clicking on it.
+     Click on the green Code button, then either the HTTPS or SSH option, and, click the icon to copy the URL. Now you have a copy of the project. Thus, you can play around with it locally on your computer.
+     git clone https://github.com/<your-github-username>/qr_scanner.git
+     Switch to the cloned folder. You can paste this command into the same terminal window.
+     cd QR_scanner
+
+  3. Open in code Editor: Open the README.md File: Use your code editor (like VS Code) to open the README.md file.
+
+  4. Create a new branch: A branch name can represent the changes you're making. A good practice is to use your GitHub username for the branch name to make it unique.
+   To create a new branch, run the following command in your terminal:
+   git checkout -b <name-of-new-branch>
+
+  5. Edit the File: Make the required changes to the code as per the issue told
+   For example - [Full Name](https://github.com/your-username)
+   Stage your changes:
+   git add README.md
+   or
+   git add .
+
+  7. Commit the changes:
+   git commit -m "Add <your-github-username>"
+   Check the status of your repository.
+   git status
+  
+  8. Pushing your repository to GitHub:
+   git push origin <name-of-your-branch>
+   or
+   git branch -M main
+   git push -u origin main
+   Warning: If you get an error message like the one below, you probably forgot to fork the repository before cloning it. It is best to start over and fork the project repository first.
+   ERROR: Permission to https://github.com/Hacktoberfest-Event-Timer/eventTimer.git denied to <your-github-username>.
+   fatal: Could not read from remote repository.
+   Please make sure you have the correct access rights and that the repository exists.
+
+  9. Raise a Pull Request:
+   On the GitHub website, navigate to your forked repo - on the top of the files section, you'll notice a new section containing a Compare & Pull Request button!
+   Click on that button, this will load a new page, comparing the local branch in your forked repository against the main branch QR-code-scanner repository. Do not make any changes in the selected             
+   values of the branches (do so only if needed), and click the green Create Pull Request button. Note: A pull request allows us to merge your changes with the original project repo.
+   Your pull request will be reviewed and then eventually merged.
+   Hurray! You successfully made your first contribution! 
+
 Author:
 Kamaaksha Rajendra Kharul
