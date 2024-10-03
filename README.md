@@ -13,7 +13,7 @@ This project implements a Real-Time QR Code Scanner using OpenCV and QRCode libr
     1.Python 3.x installed on your system
     2. Webcam connected to your system
   Steps to Install:
-    1. Clone the repository: git clone https://github.com/yourusername/qr-code-scanner-access-control.git
+    1. Clone the repository: git clone https://github.com/yourusername/qr-code-scanner-access-control.git 
                              cd qr-code-scanner-access-control
     2. Install the required dependencies: pip install -r requirements.txt
                                           or manually do pip install numpy/qrcode/time and other required libraries
